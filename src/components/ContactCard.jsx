@@ -1,7 +1,6 @@
 import React from "react";
 import { pic1, pic2 } from "../images/index.js";
-import { click } from "@testing-library/user-event/dist/click.js";
-// import React, {useState} from "react";
+
 
 const Person = (props) => {
   return (
