@@ -20,7 +20,7 @@ const App = () => {
       </button>
         
    
-      {showContact && (
+      {showContact && ( 
         <>
         <h2>email: Busi@example.com</h2>
           <h2>phone: 123-456-7890</h2>
