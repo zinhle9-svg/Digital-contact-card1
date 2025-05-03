@@ -1,11 +1,12 @@
 import React from 'react'
 
+
 function ContactCard() {
-  return (
+  return ( 
     <div>
       
     </div>
   )
 }
 
-export default ContactCard
+export default ContactCard;
