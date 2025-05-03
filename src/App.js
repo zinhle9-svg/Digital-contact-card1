@@ -4,7 +4,7 @@ import './App.css';
 import {useState} from "react";
 
 
-const App = () => {
+const App = (props) => {
   const [showContact, setShowContact] = useState(false);
   const handleClick = () => {
     setShowContact(!showContact);
@@ -22,8 +22,8 @@ const App = () => {
    
       {showContact && ( 
         <>
-        <h2>email: Busi@example.com</h2>
-          <h2>phone: 123-456-7890</h2>
+        <h2>email: {props.email}</h2>
+          <h2>phone: {props.phone}</h2>
           </>)
 }
     </div> 
