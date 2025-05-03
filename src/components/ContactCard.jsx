@@ -8,5 +8,4 @@ function ContactCard() {
   )
 }
 
-export default ContactCard
-
+export default C
