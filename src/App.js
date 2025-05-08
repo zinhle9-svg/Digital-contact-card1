@@ -15,16 +15,16 @@ const App = (props) => {
    
     <div className="App">
        <ContactCard/>
-      <button onClick={handleClick}>
+      <button className="button" onClick={handleClick}>
       {showContact ? "Hide Contact Info" : "Show Contact Info"}
       </button>
         
    
       {showContact && ( 
-        <>
-        <h2>email: {props.email}</h2>
-          <h2>phone: {props.phone}</h2>
-          </>)
+        <div className="text">
+        <h2>Email: {props.email}</h2>
+          <h2>Phone: {props.phone}</h2>
+          </div>)
 }
     </div> 
   );
